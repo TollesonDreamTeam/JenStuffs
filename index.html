@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            footer{
+                height: 10%;
+                background: maroon;
+            }
+            #body{
+                height: 80%;
+                background: gold;
+            }
+            header {
+                height: 10%;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            
+            ul {
+                height: 100%;
+            }
+            li {
+                padding: 1%;
+                float: left;
+                height: 100%;
+            }
+
+            li a {
+                
+                display: block;
+                color: white;
+                font-size: 25px;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+               
+            }
+
+            li a:hover {
+                background-color: #111;
+            }
+
+          table, tr, td {
+             border: 3px solid snow;
+             border-collapse: collapse;
+             text-align: center;
+          }  
+          table {
+              height: 100%;
+              width: 100%;
+          }
+         
+          #tablename {
+              height: 5%;
+              font-size: 20px;
+              color: black;
+          }
+          #bigdataname #bigdata {
+              width:55%;
+          }
+      
+          #average, #averagedata{
+              width: 15%;
+          }
+          #teachername, #name{
+              width:15%;
+          }
+          #hiredate, #date {
+              width:15%;
+          }
+          
+</style>
+    </head>
+        <body>
+            <header>
+                <ul>
+                    <li><a class="active" href="#teacherinfo">Teacher Info</a></li>
+                    <li><a class="active" href="#schedule">Schedule</a></li>
+                </ul>
+            </header>
+            
+            <div id="body">
+                <table>
+                    <tr id="tablename">
+                        <th id="teachername"> Name </th>
+                        <th id="hiredate"> Hired Date </th>
+                        <th id="bigdataname"> Hours Worked </th>
+                        <th id= "average"> Monthly Average </th>
+                    </tr>
+                    <tr>
+                        <td id="name"> s </td>
+                        <td id="date"> s </td>
+                        <td id="bigdata"> s </td>
+                        <td id="averagedata"> s </td>
+                    </tr>
+                    
+                </table>
+            </div>
+            
+            <footer>
+            </footer>
+        </body> 
+</html>
