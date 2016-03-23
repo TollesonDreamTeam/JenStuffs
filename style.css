@@ -3,12 +3,14 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: tahoma;
+    overflow: hidden;
 }
 footer {
     height: 10%;
     background: #9DA3A2;
 }
-#body{
+#docbody{
+    overflow-y: scroll;
     height: 80%;
     background: #D3DBDA;
     color: #242424;
@@ -18,7 +20,6 @@ header {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
     background-color: #3b3a36;
     color: #888;
 }
@@ -33,7 +34,7 @@ li {
     height: inherit;
     width: 15%;
 }
-li a {              
+li h1 {              
     display: block;
     color: #e7e7e7;
     font-size: 20px;
@@ -96,4 +97,7 @@ input{
     padding-right: 0px !important;
     padding: 10%;
     height: 100%;
+}
+.active{
+    background: limegreen;
 }

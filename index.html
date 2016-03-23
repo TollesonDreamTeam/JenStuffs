@@ -1,34 +1,188 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
     </head>
-        <body>
-            <header>
-                <ul>
-                    <li><a class="active" href="#teacherinfo">Teacher Info</a></li>
-                    <li><a class="active" href="#schedule">Schedule</a></li>
-                </ul>
-            </header>
+    <body>
+       <header>
+            <ul>
+              <li class="active" name="teacherInfo"><h1>Teacher Info</h1></li>
+              <li name="schedule"><h1>Schedule</h1></li>
+            </ul>
+       </header>
+       
+       <div id="docbody">
             
-            <div id="body">
-                <table>
-                    <tr id="tablename">
-                        <th id="tablehead"> Name </th>
-                        <th id="tablehead"> Hired Date </th>
-                        <th id="bigdataname"> Hours Worked </th>
-                        <th id= "tablehead"> Monthly Average </th>
-                    </tr>
-                    <tr id="tabledata">
-                        <td id="name"> s </td>
-                        <td id="date"> s </td>
-                        <td id="bigdata"> s </td>
-                        <td id="averagedata"> s </td>
-                    </tr>
-                    
-                </table>
+        </div>
+        
+        <template id="teacherInfo">
+            <table>
+                <tr id="tablename">
+                    <th id="tablehead"> Name </th>
+                    <th id="tablehead"> Hired Date </th>
+                    <th id="bigdataname"> Hours Worked </th>
+                    <th id= "tablehead"> Monthly Average </th>
+                </tr>
+                <tr id="tabledata">
+                    <td id="name"> s </td>
+                    <td id="date"> s </td>
+                    <td id="bigdata"> s </td>
+                    <td id="averagedata"> s </td>
+                </tr>
+            </table>
+        </template>
+        
+        <template id="schedule">
+            <div class="row1">
+                <div class="col-1"> Select </div>     
+                <div class="col-2"> Month </div>
+                <div class="col-3"> Hire Date </div>
+                <div class="col-4"> Admin Period 1</div>
+                <div class="col-5"> Measurement Period </div>
+                <div class="col-6"> Admin Period 2</div>
+                <div class="col-7"> Stability Period </div>
             </div>
-            
-            <footer>
-            </footer>
-        </body> 
+            <div class="row2">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <div class="row3">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <div class="row4">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <div class="row5">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <div class="row6">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <div class="row7">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <div class="row8">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+             <div class="row9">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+             <div class="row10">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+             <div class="row11">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+             <div class="row12">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <div class="row13">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <div class="row14">
+                <div class="col-1">s</div>
+                <div class="col-2">s</div>
+                <div class="col-3">s</div>
+                <div class="col-4">s</div>
+                <div class="col-5">s</div>
+                <div class="col-6">s</div>
+                <div class="col-7">s</div>
+            </div>
+            <script>
+            $('.col-1').each(function(i){
+                if($(this).closest(".row1").length == 0){
+                    $(this).text("");
+                    $(this).append('<input type="checkbox" />');
+                }
+            })
+            </script> 
+        </template>
+        
+        <footer></footer>
+        <script>
+            $(document).ready(function(){
+                $('li').click(function(){
+                    if($(this).attr('class') != "active"){
+                        $('li').removeClass('active');
+                        $(this).addClass('active');
+                        $('#docbody').empty();
+                        $(document.importNode(document.querySelector("#" + $(this).attr('name')).content, true)).appendTo('#docbody');
+                    }
+                })
+                $(document.importNode(document.querySelector('#teacherInfo').content, true)).appendTo('#docbody');
+            })
+        </script>  
+    </body>
+
 </html>
