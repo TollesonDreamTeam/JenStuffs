@@ -6,11 +6,11 @@
 }
 footer {
     height: 10%;
-    background: #222;
+    background: #9DA3A2;
 }
 #body{
     height: 80%;
-    background: dimgray;
+    background: #D3DBDA;
     color: #242424;
 }
 header {
@@ -19,7 +19,7 @@ header {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3b3a36;
     color: #888;
 }
 ul{  
